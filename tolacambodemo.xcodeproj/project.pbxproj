@@ -14,6 +14,10 @@
 		5233B52F2B6D33D300E43CAB /* SVGManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233B52E2B6D33D300E43CAB /* SVGManager.swift */; };
 		5233B5342B708D4800E43CAB /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233B5332B708D4700E43CAB /* SplashScreen.swift */; };
 		5233B5362B708E8F00E43CAB /* SystemIconFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233B5352B708E8F00E43CAB /* SystemIconFilterView.swift */; };
+		52B1F1342B71EAD800AA0333 /* ButtonsStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1F1332B71EAD800AA0333 /* ButtonsStyle.swift */; };
+		52B1F14C2B736EA400AA0333 /* svgjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B1F14B2B736EA400AA0333 /* svgjson.json */; };
+		52B1F14E2B73D8EB00AA0333 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1F14D2B73D8EB00AA0333 /* DataModel.swift */; };
+		52B1F1502B743C8A00AA0333 /* ExtentionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1F14F2B743C8A00AA0333 /* ExtentionHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		5233B52E2B6D33D300E43CAB /* SVGManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGManager.swift; sourceTree = "<group>"; };
 		5233B5332B708D4700E43CAB /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		5233B5352B708E8F00E43CAB /* SystemIconFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconFilterView.swift; sourceTree = "<group>"; };
+		52B1F1332B71EAD800AA0333 /* ButtonsStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsStyle.swift; sourceTree = "<group>"; };
+		52B1F14B2B736EA400AA0333 /* svgjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = svgjson.json; sourceTree = "<group>"; };
+		52B1F14D2B73D8EB00AA0333 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		52B1F14F2B743C8A00AA0333 /* ExtentionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 		5233B51F2B6CAE3600E43CAB /* tolacambodemo */ = {
 			isa = PBXGroup;
 			children = (
+				52B1F14B2B736EA400AA0333 /* svgjson.json */,
 				5233B5372B70924900E43CAB /* Managers */,
 				5233B5322B708CBA00E43CAB /* Views */,
 				5233B5202B6CAE3600E43CAB /* tolacambodemoApp.swift */,
@@ -80,6 +89,7 @@
 			children = (
 				5233B5332B708D4700E43CAB /* SplashScreen.swift */,
 				5233B5352B708E8F00E43CAB /* SystemIconFilterView.swift */,
+				52B1F1332B71EAD800AA0333 /* ButtonsStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				5233B52E2B6D33D300E43CAB /* SVGManager.swift */,
+				52B1F14D2B73D8EB00AA0333 /* DataModel.swift */,
+				52B1F14F2B743C8A00AA0333 /* ExtentionHelper.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -150,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1F14C2B736EA400AA0333 /* svgjson.json in Resources */,
 				5233B5282B6CAE3800E43CAB /* Preview Assets.xcassets in Resources */,
 				5233B5252B6CAE3800E43CAB /* Assets.xcassets in Resources */,
 			);
@@ -162,10 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B1F14E2B73D8EB00AA0333 /* DataModel.swift in Sources */,
 				5233B5342B708D4800E43CAB /* SplashScreen.swift in Sources */,
 				5233B5232B6CAE3600E43CAB /* ContentView.swift in Sources */,
 				5233B5212B6CAE3600E43CAB /* tolacambodemoApp.swift in Sources */,
+				52B1F1342B71EAD800AA0333 /* ButtonsStyle.swift in Sources */,
 				5233B5362B708E8F00E43CAB /* SystemIconFilterView.swift in Sources */,
+				52B1F1502B743C8A00AA0333 /* ExtentionHelper.swift in Sources */,
 				5233B52F2B6D33D300E43CAB /* SVGManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
